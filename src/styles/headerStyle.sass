@@ -1,0 +1,88 @@
+$border: 1px solid black
+$padding: 5em
+$color: #ff7142
+$color2: #808080
+
+//Mobile
+@media (max-width: 767px)
+    .header
+        border-bottom: $border
+        border-top: $border
+        max-width: 100vw
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        align-items: center
+        height: 5vh
+        padding-left: $padding
+        padding-right: $padding 
+        padding-top: 0.3em
+        padding-bottom: 0.3em
+        & > div
+            min-width: 100%
+            display: flex
+            align-items: center
+        & span:nth-child(1)
+            color: $color2
+        & span:nth-child(2)
+            color: $color
+    
+    .header div:last-child
+        display: flex
+        justify-content: flex-end
+        & button
+            background-color: $color
+            width: auto
+            color: white
+        & > a
+            text-decoration: none
+            color: $color
+
+    button
+        height: 2em
+        margin-right: 1em
+        border: none
+        border-radius: 5px
+        box-shadow: 1px 1px #888888
+    
+@media (min-width: 768px)
+    .header
+        border-bottom: $border
+        border-top: $border
+        max-width: 100vw
+        display: flex
+        flex-wrap: wrap
+        align-content: center
+        align-items: center
+        height: 5vh
+        padding-left: $padding
+        padding-right: $padding 
+        padding-top: 0.3em
+        padding-bottom: 0.3em
+        & > div
+            min-width: 50%
+            display: flex
+            align-items: center
+        & span:nth-child(1)
+            color: $color2
+        & span:nth-child(2)
+            color: $color
+    
+    .header div:last-child
+        display: flex
+        justify-content: flex-end
+        & button
+            background-color: $color
+            width: auto
+            color: white
+        & > a
+            text-decoration: none
+            color: $color
+
+    button
+        height: 2em
+        margin-right: 1em
+        border: none
+        border-radius: 5px
+        box-shadow: 1px 1px #888888
+

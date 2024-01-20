@@ -1,0 +1,40 @@
+export const theme = {
+	defaultPgBgColor: '#f2f3f5',
+
+	btnSizeXs: '0.3em 1em',
+	btnSizeSm: '0.5em 2em',
+	btnSizeMd: '0.7em 3em',
+	btnSizeLg: '1em 4em',
+	btnSizeXl: '1.3em 6em',
+
+	primaryBtnColor: 'white',
+	primaryBtnBgColor: '#2185d0',
+	secondaryBtnColor: 'black',
+	secondaryBtnBgColor: '#e0e1e2',
+	successBtnColor: 'white',
+	successBtnBgColor: '#1cb841',
+	dangerBtnColor: 'white',
+	dangerBtnBgColor: '#f5212d',
+	clearBtnBgColor: 'white',
+
+	primaryBtnBgColorHover: '#1d77bb',
+	secondaryBtnBgColorHover: '#c9cacb',
+	successBtnBgColorHover: '#19a53a',
+	dangerBtnBgColorHover: '#dc1d28',
+	clearBtnBgColorHover: '#e5e5e5',
+
+	primaryBtnColorInvert: '#2185d0',
+	primaryBtnBgColorInvert: 'white',
+	secondaryBtnColorInvert: 'black',
+	secondaryBtnBgColorInvert: 'white',
+	successBtnColorInvert: '#1cb841',
+	successBtnBgColorInvert: 'white',
+	dangerBtnColorInvert: '#f5212d',
+	dangerBtnBgColorInvert: 'white',
+	clearBtnBgColorInvert: '#ccc',
+
+	primaryBtnBgColorHoverInvert: 'white',
+	secondaryBtnBgColorHoverInvert: 'black',
+	successBtnBgColorHoverInvert: 'white',
+	dangerBtnBgColorHoverInvert: 'white',
+}
